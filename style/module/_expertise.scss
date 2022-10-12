@@ -148,7 +148,7 @@ padding-right: 170px;
             }
             &:nth-child(1)::before{
                 
-            content: url('../../images/Shape1.svg');
+            content: url('../images/Shape1.svg');
            left: 70px;
             padding-top: 0px;
             padding-right: 35px;
@@ -157,7 +157,7 @@ padding-right: 170px;
             }
              &:nth-child(2)::before{
                 
-            content: url('../../images/Shape2.svg');
+            content: url('../images/Shape2.svg');
            left: 70px;
             padding-top: 0px;
              position: absolute;
@@ -165,7 +165,7 @@ padding-right: 170px;
             }
              &:nth-child(3)::before{
                 
-            content: url('../../images/Shape3.svg');
+            content: url('../images/Shape3.svg');
            left: 70px;
             padding-top: 0px;
              position: absolute;
