@@ -132,7 +132,10 @@ right: 100%;
        .headerbg {
         width: 100%;
         height: 458px;
-        
+         background: linear-gradient(180deg, rgba(255, 255, 255, 0.141514) 0%, rgba(0, 0, 0, 0.496883) 100%), url('../images/HeaderImg-bg.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
         .cloudbg {
 width: 100%;
 
@@ -173,7 +176,10 @@ line-height: 20px;
         
        .headerbg {
         height: 358px;
-   
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.141514) 0%, rgba(0, 0, 0, 0.496883) 100%), url('../images/HeaderImg-bg.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
         .cloudbg {
 width: 100%;
 
