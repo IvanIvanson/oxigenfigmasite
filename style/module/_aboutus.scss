@@ -1,0 +1,165 @@
+.row.about-us{
+    padding: 143px 135px;
+        // border: solid rgb(17, 255, 0);
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+   
+     .about-left{
+        
+        h4{
+color: #242121;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 75px;
+        }
+        .bottom-bar{
+width: 60px;
+height: 4px;
+
+
+background: #FCBB08;
+        }
+     }
+     .row.about-right{
+       
+        p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+max-width: 770px;
+
+
+color: #373A39;
+        }
+     }
+}
+
+@media (max-width:1050px){
+.row.about-us{
+    padding: 50px 100px;
+       
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+     .about-left{
+        
+        h4{
+color: #242121;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 75px;
+        }
+        .bottom-bar{
+width: 60px;
+height: 4px;
+
+
+background: #FCBB08;
+        }
+     }
+     .about-right{
+        // border: solid red;
+        p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+max-width: 770px;
+padding-top: 30px;
+
+color: #373A39;
+        }
+     }
+}
+}
+
+
+@media (max-width:770px){
+.row.about-us{
+    padding: 50px 100px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+     .about-left{
+        
+        h4{
+color: #242121;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 65px;
+        }
+        .bottom-bar{
+width: 60px;
+height: 4px;
+
+
+background: #FCBB08;
+        }
+     }
+     .about-right{
+        // border: solid red;
+        p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+max-width: 770px;
+padding-top: 30px;
+
+color: #373A39;
+        }
+     }
+}
+}
+
+@media (max-width:425px){
+.row.about-us{
+    padding: 20px 10px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+     .about-left{
+        
+        h4{
+color: #242121;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+        }
+        .bottom-bar{
+width: 60px;
+height: 4px;
+
+
+background: #FCBB08;
+        }
+     }
+     .about-right{
+        // border: solid red;
+        p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+max-width: 770px;
+padding-top: 30px;
+
+color: #373A39;
+        }
+     }
+}
+}

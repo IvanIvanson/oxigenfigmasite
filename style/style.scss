@@ -1,0 +1,11 @@
+@import 'module/vars';
+@import 'module/fonts';
+
+@import 'module/nav';
+.container-fluid {
+    background: #F6F8FA;
+@import 'module/header';
+@import 'module/aboutus';
+@import 'module/expertise';
+
+}
