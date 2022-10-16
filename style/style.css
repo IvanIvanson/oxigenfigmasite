@@ -2496,7 +2496,7 @@ nav .navbar-nav li a.active {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: url("../../images/treebg.png");
+    background-image: url("./images/treebg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
