@@ -10,7 +10,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url('../../images/treebg.png');
+        background-image: url('./images/treebg.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -19,6 +19,7 @@
             cursor: pointer;
             border:none;
             background-color: transparent;
+            outline: none;
             img{
                 // display: block;
             }
