@@ -151,7 +151,7 @@ nav .navbar-nav li a.active {
 }
 
 .container-fluid {
-  background: #F6F8FA;
+  background: #FFF;
 }
 
 .container-fluid .row .headerbg {
@@ -383,6 +383,7 @@ nav .navbar-nav li a.active {
   width: 100%;
   margin-right: 0px;
   margin-left: 0px;
+  background: #F6F8FA;
 }
 
 .container-fluid .row.about-us .about-left h4 {
@@ -1386,6 +1387,7 @@ nav .navbar-nav li a.active {
   margin-left: 0px;
   padding-left: 135px;
   padding-right: 135px;
+  background: #F6F8FA;
 }
 
 .container-fluid .magic .right {
@@ -1523,6 +1525,1025 @@ nav .navbar-nav li a.active {
   }
   .container-fluid .magic .right .first {
     padding-top: 27px;
+  }
+}
+
+.container-fluid .portfolio {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-top: 10px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.container-fluid .portfolio .portfolio-top .block {
+  margin: 0 auto;
+  padding-bottom: 47px;
+  width: 284px;
+}
+
+.container-fluid .portfolio .portfolio-top .block h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  color: #242121;
+}
+
+.container-fluid .portfolio .portfolio-top .block .bottom-bar {
+  width: 60px;
+  height: 4px;
+  background: #FCBB08;
+}
+
+.container-fluid .portfolio .portfolio-top ul {
+  padding-bottom: 47px;
+  list-style: none;
+}
+
+.container-fluid .portfolio .portfolio-top ul li {
+  display: inline;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.container-fluid .portfolio .portfolio-top ul li:not(:first-child) {
+  padding-left: 30px;
+}
+
+.container-fluid .portfolio .portfolio-midle {
+  width: 100%;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery {
+  max-width: 343px;
+  height: 395px;
+  background: #EDEDED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery:nth-child(1) {
+  height: 494px;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+  background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+  border: 12px solid rgba(255, 255, 255, 0.147164);
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery {
+  max-width: 343px;
+  min-height: 288px;
+  background: #EDEDED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+  background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+  border: 12px solid rgba(255, 255, 255, 0.147164);
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery {
+  max-width: 343px;
+  height: 367px;
+  background: #EDEDED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery:nth-child(2) {
+  height: 523px;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+  background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+  border: 12px solid rgba(255, 255, 255, 0.147164);
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery {
+  max-width: 343px;
+  height: 318px;
+  background: #EDEDED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery:nth-child(2) {
+  height: 572px;
+}
+
+.container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+  background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+  border: 12px solid rgba(255, 255, 255, 0.147164);
+}
+
+@media (max-width: 770px) {
+  .container-fluid .portfolio {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .container-fluid .portfolio .portfolio-top .block {
+    margin: 0 auto;
+    padding-bottom: 27px;
+    width: 284px;
+  }
+  .container-fluid .portfolio .portfolio-top .block h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #242121;
+  }
+  .container-fluid .portfolio .portfolio-top .block .bottom-bar {
+    width: 50px;
+    height: 4px;
+    background: #FCBB08;
+  }
+  .container-fluid .portfolio .portfolio-top ul {
+    padding-bottom: 2px;
+    list-style: none;
+  }
+  .container-fluid .portfolio .portfolio-top ul li {
+    display: inline;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+  }
+  .container-fluid .portfolio .portfolio-top ul li:not(:first-child) {
+    padding-left: 10px;
+  }
+  .container-fluid .portfolio .portfolio-midle {
+    width: 100%;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery {
+    max-width: 343px;
+    height: 395px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery:nth-child(1) {
+    height: 494px;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery {
+    max-width: 343px;
+    min-height: 288px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery {
+    max-width: 343px;
+    height: 367px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery:nth-child(2) {
+    height: 523px;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery {
+    max-width: 343px;
+    height: 318px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery:nth-child(2) {
+    height: 572px;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+}
+
+@media (max-width: 425px) {
+  .container-fluid .portfolio {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 35px;
+    padding-right: 5px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .container-fluid .portfolio .portfolio-top .block {
+    margin: 0 auto;
+    padding-bottom: 27px;
+    width: 284px;
+  }
+  .container-fluid .portfolio .portfolio-top .block h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #242121;
+  }
+  .container-fluid .portfolio .portfolio-top .block .bottom-bar {
+    width: 50px;
+    height: 4px;
+    background: #FCBB08;
+  }
+  .container-fluid .portfolio .portfolio-top ul {
+    padding-bottom: 2px;
+    list-style: none;
+    padding-left: 0px;
+  }
+  .container-fluid .portfolio .portfolio-top ul li {
+    display: inline;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+  }
+  .container-fluid .portfolio .portfolio-top ul li:not(:first-child) {
+    padding-left: 10px;
+  }
+  .container-fluid .portfolio .portfolio-midle {
+    width: 100%;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery {
+    max-width: 343px;
+    height: 395px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery:nth-child(1) {
+    height: 494px;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left1 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery {
+    max-width: 343px;
+    min-height: 288px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .left2 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery {
+    max-width: 343px;
+    height: 367px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery:nth-child(2) {
+    height: 523px;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right1 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery {
+    max-width: 343px;
+    height: 318px;
+    background: #EDEDED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery:nth-child(2) {
+    height: 572px;
+  }
+  .container-fluid .portfolio .portfolio-midle .midle-row .right2 .gallery:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 33, 33, 0.8)), to(rgba(36, 33, 33, 0.8))), #EDEDED;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+  }
+}
+
+.container-fluid .viev {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 47px;
+  width: 100%;
+}
+
+.container-fluid .viev .portfolio-bottom {
+  background-color: #F6F8FA;
+  padding-top: 42px;
+  padding-bottom: 41px;
+}
+
+.container-fluid .viev .portfolio-bottom h6 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 1.2px;
+  color: #242121;
+}
+
+@media (max-width: 425px) {
+  .container-fluid .viev {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 27px;
+    width: 100%;
+  }
+  .container-fluid .viev .portfolio-bottom {
+    background-color: #F6F8FA;
+    padding-top: 22px;
+    padding-bottom: 21px;
+  }
+  .container-fluid .viev .portfolio-bottom h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 1.2px;
+    color: #242121;
+  }
+}
+
+.container-fluid .testimonial {
+  margin-top: 140px;
+}
+
+.container-fluid .testimonial p {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+  color: #242121;
+  padding-top: 130px;
+}
+
+.container-fluid .testimonial .gilbert {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 32px;
+  color: #9E9E9E;
+  padding-top: 51px;
+}
+
+@media (max-width: 425px) {
+  .container-fluid .testimonial {
+    margin-top: 0px;
+  }
+  .container-fluid .testimonial p {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    color: #242121;
+    padding-top: 30px;
+  }
+  .container-fluid .testimonial .gilbert {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+    color: #9E9E9E;
+    padding-top: 31px;
+  }
+}
+
+@media (max-width: 770px) {
+  .container-fluid .testimonial {
+    margin-top: 0px;
+  }
+  .container-fluid .testimonial p {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    color: #242121;
+    padding-top: 30px;
+  }
+  .container-fluid .testimonial .gilbert {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+    color: #9E9E9E;
+    padding-top: 31px;
+  }
+}
+
+.container-fluid .tree {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.container-fluid .tree .bgtree {
+  width: 100%;
+  height: 324px;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../../images/treebg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-fluid .tree .bgtree .btntriangle {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.container-fluid .tree .bgtree .handle {
+  position: absolute;
+  display: block;
+}
+
+.container-fluid .tree .bgtree .handleactive {
+  -webkit-animation: animhandle 15s ease-in-out infinite;
+          animation: animhandle 15s ease-in-out infinite;
+  position: absolute;
+  display: block;
+}
+
+@-webkit-keyframes animhandle {
+  0% {
+    top: 10px;
+  }
+  50% {
+    top: 200px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+@keyframes animhandle {
+  0% {
+    top: 10px;
+  }
+  50% {
+    top: 200px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+.container-fluid .tree .bgtree .triangle {
+  position: absolute;
+  width: 54px;
+  height: 64px;
+  z-index: 100;
+}
+
+@media (max-width: 770px) {
+  .container-fluid .tree {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .container-fluid .tree .bgtree {
+    width: 100%;
+    height: 324px;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("../../images/treebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container-fluid .tree .bgtree .btntriangle {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  .container-fluid .tree .bgtree .handle {
+    position: absolute;
+    display: block;
+    top: 20px;
+  }
+  .container-fluid .tree .bgtree .handleactive {
+    -webkit-animation: animhandle 15s ease-in-out infinite;
+            animation: animhandle 15s ease-in-out infinite;
+    position: absolute;
+    display: block;
+  }
+  @-webkit-keyframes animhandle {
+    0% {
+      top: 20px;
+    }
+    50% {
+      top: 200px;
+    }
+    100% {
+      top: 20px;
+    }
+  }
+  @keyframes animhandle {
+    0% {
+      top: 20px;
+    }
+    50% {
+      top: 200px;
+    }
+    100% {
+      top: 20px;
+    }
+  }
+  .container-fluid .tree .bgtree .triangle {
+    position: absolute;
+    width: 54px;
+    height: 64px;
+    z-index: 100;
   }
 }
 /*# sourceMappingURL=style.css.map */

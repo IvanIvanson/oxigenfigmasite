@@ -1,0 +1,51 @@
+.viev{
+     margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 47px;
+      
+        width: 100%;
+    .portfolio-bottom{
+            background-color: #F6F8FA;
+            padding-top: 42px;
+            padding-bottom: 41px;
+            h6{
+                font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 1.2px;
+
+color: #242121;
+            }
+        }
+}
+
+@media (max-width:425px){
+.viev{
+     margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 27px;
+      
+        width: 100%;
+    .portfolio-bottom{
+            background-color: #F6F8FA;
+            padding-top: 22px;
+            padding-bottom: 21px;
+            h6{
+                font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 1.2px;
+
+color: #242121;
+            }
+        }
+}
+}

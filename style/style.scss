@@ -3,9 +3,13 @@
 
 @import 'module/nav';
 .container-fluid {
-    background: #F6F8FA;
+    background: #FFF;
 @import 'module/header';
 @import 'module/aboutus';
 @import 'module/expertise';
 @import 'module/magic';
+@import 'module/portfolio';
+@import 'module/viev';
+@import 'module/testimonial';
+@import 'module/bgtree';
 }

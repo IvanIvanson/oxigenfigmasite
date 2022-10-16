@@ -1,0 +1,69 @@
+.testimonial{
+    margin-top: 140px;
+    p{
+        font-family: 'Merriweather';
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 36px;
+color: #242121;
+padding-top: 130px;
+    }
+    .gilbert{
+        font-family: 'Merriweather';
+font-style: italic;
+font-weight: 300;
+font-size: 14px;
+line-height: 32px;
+color: #9E9E9E;
+padding-top: 51px;
+    }
+}
+
+@media (max-width:425px){
+.testimonial{
+    margin-top: 0px;
+    p{
+        font-family: 'Merriweather';
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 36px;
+color: #242121;
+padding-top: 30px;
+    }
+    .gilbert{
+        font-family: 'Merriweather';
+font-style: italic;
+font-weight: 300;
+font-size: 14px;
+line-height: 32px;
+color: #9E9E9E;
+padding-top: 31px;
+    }
+}
+}
+
+@media (max-width:770px){
+.testimonial{
+    margin-top: 0px;
+    p{
+        font-family: 'Merriweather';
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 36px;
+color: #242121;
+padding-top: 30px;
+    }
+    .gilbert{
+        font-family: 'Merriweather';
+font-style: italic;
+font-weight: 300;
+font-size: 14px;
+line-height: 32px;
+color: #9E9E9E;
+padding-top: 31px;
+    }
+}
+}
