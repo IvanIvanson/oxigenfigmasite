@@ -3,6 +3,10 @@
 
 @import 'module/nav';
 .container-fluid {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+padding-right: 0;
     background: #FFF;
 @import 'module/header';
 @import 'module/aboutus';
@@ -12,4 +16,7 @@
 @import 'module/viev';
 @import 'module/testimonial';
 @import 'module/bgtree';
+@import 'module/facts';
+@import 'module/slide';
+
 }

@@ -151,6 +151,10 @@ nav .navbar-nav li a.active {
 }
 
 .container-fluid {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
   background: #FFF;
 }
 
@@ -2617,6 +2621,270 @@ nav .navbar-nav li a.active {
     width: 54px;
     height: 64px;
     z-index: 100;
+  }
+}
+
+.container-fluid .facts {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  padding: 164px 227px 167px 228px;
+}
+
+.container-fluid .facts h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  color: #242121;
+}
+
+.container-fluid .facts p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #00B2A0;
+}
+
+@media (max-width: 770px) {
+  .container-fluid .facts {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    padding: 100px 150px 100px 150px;
+  }
+  .container-fluid .facts h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    color: #242121;
+  }
+  .container-fluid .facts p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #00B2A0;
+  }
+}
+
+.container-fluid .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 2500px;
+}
+
+.container-fluid .container .slider {
+  margin-right: 0px;
+  margin-left: 0px;
+  background: #F6F8FA;
+  width: 100%;
+}
+
+.container-fluid .container .slider .slidercol .arrow-l {
+  display: block;
+  margin-right: 100px;
+}
+
+.container-fluid .container .slider .slidercol .arrow-r {
+  display: block;
+  margin-left: 100px;
+}
+
+.container-fluid .container .slider .slidercol ol {
+  position: absolute;
+  bottom: 5px;
+  width: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 100px;
+}
+
+.container-fluid .container .slider .slidercol ol li {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  border: solid #242121 1px;
+  background: transparent;
+  margin-left: 30px;
+  padding: 3px;
+}
+
+.container-fluid .container .slider .slidercol ol li.active {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  padding: 5px;
+  background: #242121;
+}
+
+.container-fluid .container .slider .slidercol .slideblock {
+  padding-top: 307px;
+  padding-bottom: 325px;
+  padding-left: 183px;
+}
+
+.container-fluid .container .slider .slidercol .slideblock h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  max-width: 704px;
+  color: #242121;
+}
+
+.container-fluid .container .slider .slidercol .slideblock p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 559px;
+  color: #777777;
+}
+
+@media (max-width: 770px) {
+  .container-fluid .container .slider {
+    margin-right: 0px;
+    margin-left: 0px;
+    background: #F6F8FA;
+    width: 100%;
+  }
+  .container-fluid .container .slider .slidercol .arrow-l {
+    display: block;
+    margin-right: 10px;
+  }
+  .container-fluid .container .slider .slidercol .arrow-r {
+    display: block;
+    margin-left: 10px;
+  }
+  .container-fluid .container .slider .slidercol ol {
+    position: absolute;
+    bottom: 5px;
+    width: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-left: 100px;
+  }
+  .container-fluid .container .slider .slidercol ol li {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: solid #242121 1px;
+    background: transparent;
+    margin-left: 30px;
+    padding: 3px;
+  }
+  .container-fluid .container .slider .slidercol ol li.active {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    padding: 5px;
+    background: #242121;
+  }
+  .container-fluid .container .slider .slidercol .slideblock {
+    padding-top: 207px;
+    padding-bottom: 225px;
+    padding-left: 83px;
+  }
+  .container-fluid .container .slider .slidercol .slideblock h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    max-width: 704px;
+    color: #242121;
+  }
+  .container-fluid .container .slider .slidercol .slideblock p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 559px;
+    color: #777777;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-fluid .container .slider {
+    margin-right: 0px;
+    margin-left: 0px;
+    background: #F6F8FA;
+    width: 100%;
+  }
+  .container-fluid .container .slider .slidercol .arrow-l {
+    width: 20px;
+    display: block;
+    left: -10px;
+    position: absolute;
+  }
+  .container-fluid .container .slider .slidercol .arrow-r {
+    position: absolute;
+    display: block;
+    right: -10px;
+    width: 20px;
+  }
+  .container-fluid .container .slider .slidercol ol {
+    position: absolute;
+    bottom: 5px;
+    width: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-left: 0px;
+  }
+  .container-fluid .container .slider .slidercol ol li {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: solid #242121 1px;
+    background: transparent;
+    margin-left: 30px;
+    padding: 3px;
+  }
+  .container-fluid .container .slider .slidercol ol li.active {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    padding: 5px;
+    background: #242121;
+  }
+  .container-fluid .container .slider .slidercol .slideblock {
+    padding-top: 107px;
+    padding-bottom: 125px;
+    padding-left: 23px;
+  }
+  .container-fluid .container .slider .slidercol .slideblock h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    max-width: 320px;
+    color: #242121;
+  }
+  .container-fluid .container .slider .slidercol .slideblock p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 320px;
+    color: #777777;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+.facts{
+    margin-right: 0px;
+    margin-left: 0px;
+     width: 100%;
+     padding:164px 227px 167px 228px;
+     
+    h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+
+color: #242121;
+    }
+    p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+color: #00B2A0;
+    }
+}
+
+@media (max-width:770px){
+.facts{
+    margin-right: 0px;
+    margin-left: 0px;
+     width: 100%;
+     padding:100px 150px 100px 150px;
+     
+    h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 63px;
+
+color: #242121;
+    }
+    p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+color: #00B2A0;
+    }
+}
+}
