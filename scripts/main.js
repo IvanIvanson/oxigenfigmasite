@@ -4,3 +4,4 @@ import btnTriangle from "./btntriangle.js";
 showLink();
 showBars();
 btnTriangle();
+console.log("12233")
